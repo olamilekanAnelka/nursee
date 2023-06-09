@@ -1,0 +1,484 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 767px){
+.ContactUs{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: auto;
+ 
+}
+
+.ContactUs .navbar-brand{
+  color: #152e45;
+  font-weight: 700;
+}
+
+
+.ContactUs .imgbg {
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1680379924/Front-end/pancake_utkssw.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+ 
+}
+
+
+
+.imgbg .navbar {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #ffffff;
+  }
+
+  .imgbg .navbarLogo i{
+    color: #152e45;
+    margin: 2px;
+  }
+  .imgbg .contact{
+   margin-top: 5rem;
+   margin-bottom: 7rem;
+   color: #ffffff;
+   text-align: center;
+   width: 70%;
+   
+  }
+  .ContactUs .getinTouch{
+    width: 100%;
+    margin: 5rem;
+  }
+
+  .getinTouch .left{
+    width: 100%;
+    height: 70vh;
+  }
+
+  .getinTouch .left p{
+    color: #bdbebe;
+  }
+
+  .getinTouch .contact-item{
+    display: flex;
+   width: 20rem;    
+   margin: 10px;                    
+  }
+  
+  .getinTouch .contactLogo{
+    width: 3rem;
+    height: 3rem;
+    background-color: #152e45;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+
+  .getinTouch .contact-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+  }
+
+  .contact-info-wrapper .contact-label{
+    font-weight: 700;
+  }
+
+  .contact-info-wrapper .contact-info{
+    color: #bdbebe;
+  }
+
+  .getinTouch .social-media{
+    width: 70%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e6e3;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+    margin-top: 3rem;
+  }
+  .getinTouch .mediaLogo{
+    margin-right: 3rem;
+  }
+  .getinTouch .mediaLogo i{
+   padding-left: 10px;
+ 
+  }
+
+  .getinTouch .form{
+    background-color: #e6f2f0;
+    height: 70vh;
+    padding: 3rem 0;
+  
+  }
+
+  .getinTouch .form form{
+    width: 90%;
+    padding-left: 2rem;
+  }
+
+  .getinTouch label{
+    font-weight: 700;
+    color: #152e45;
+  }
+
+  .getinTouch .input{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .getinTouch input{
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+  }
+
+  .getinTouch #name{
+    width: 50%;
+  }
+
+  .getinTouch #email{
+    width: 50%;
+  }
+
+  .getinTouch #phone{
+    width: 70%;
+  }
+
+  .getinTouch #message{
+    width: 70%;
+    height: 8rem;
+  }
+
+  .getinTouch .form button{
+    background-color: #152e45;
+    color: #ffffff;
+    width: 40%;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    font-weight: 500;
+  } 
+
+  .ContactUs .templates{
+    background-color: #152e45;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+     padding-top: 5rem;
+     align-items: center;
+     width: 100%;
+     height: auto;
+   
+  }
+
+  .templates .subTemplates{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+
+  }    
+  .templates .nursee,
+  .Navigation,.quick-link,
+  .services{
+    padding-top: 3rem;
+    list-style: none;
+    padding-bottom: 2rem;
+  }
+
+ .templates li{
+  list-style: none;
+ }
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+.ContactUs {
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: auto;
+}
+
+
+.ContactUs .navbar-brand{
+  color: #152e45;
+  font-weight: 700;
+}
+
+
+.ContactUs .imgbg {
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1680379924/Front-end/pancake_utkssw.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgbg .navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  background-color: #ffffff;
+ 
+}
+.imgbg .navbar-collapse{
+  margin-left: 20%;
+
+}
+
+.imgbg .navbar-collapse ul{
+  padding-left:0 30%;
+}
+.imgbg .navbarLogo i{
+  color: #152e45;
+  margin: 10px;
+}
+.imgbg .contact{
+ margin-top: 5rem;
+ margin-bottom: 7rem;
+ color: #ffffff;
+ text-align: center;
+ width: 50%;
+ 
+}
+.ContactUs .getinTouch{
+  width: 100%;
+  margin: 5rem;
+}
+
+.getinTouch .left{
+  width: 85%;
+  height: 70vh;
+  padding-top: 2rem;
+}
+
+.getinTouch .left p{
+  color: #bdbebe;
+}
+
+.getinTouch .contact-details{
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.getinTouch .contact-item{
+  display: flex;
+ width: 20rem;    
+ margin: 10px;                    
+}
+
+.getinTouch .contactLogo{
+  width: 3rem;
+  height: 3rem;
+  background-color: #152e45;
+  color: #ffd700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.getinTouch .contact-info-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.contact-info-wrapper .contact-label{
+  font-weight: 700;
+}
+
+.contact-info-wrapper .contact-info{
+  color: #bdbebe;
+}
+
+.getinTouch .social-media{
+  width: 70%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e5e6e3;
+  border-right: none; 
+  border-bottom: none; 
+  border-left: none;
+  margin-top: 3rem;
+}
+.getinTouch .mediaLogo{
+  margin-right: 3rem;
+}
+.getinTouch .mediaLogo i{
+ padding-left: 10px;
+
+}
+
+
+.getinTouch .right{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getinTouch .form {
+  width: 100%;
+  background-color: #e6f2f0;
+  display: flex;
+ padding-top: 2rem;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.getinTouch .form form{
+  width: 90%;
+}
+.getinTouch .form label{
+  font-weight: 600;
+  color: #152e45;
+}
+.getinTouch #inputPhone{
+  height: 4rem;
+}
+.getinTouch #inputAddress2{
+  height: 6rem;
+}
+
+.getinTouch .form button{
+  background-color: #152e45;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.ContactUs .templates{
+  background-color: #152e45;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+   padding-top: 5rem;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.ContactUs .subTemplates{
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  height: 35vh;
+}
+
+
+.nursee {
+  flex: 2;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.templates .nursee span{
+  margin-top: 3rem;
+}
+
+.Navigation,
+.quick-link,
+.services {
+  flex: 1;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.Navigation,
+.quick-link {
+  margin-right: 0;
+}
+
+.subTemplates h6 {
+  margin-bottom: 10px;
+}
+
+.subTemplates ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.subTemplates ul li {
+  margin-bottom: 5px;
+}
+
+.subTemplates span {
+  display: block;
+  margin-top: 10px;
+}
+
+.subTemplates .fa-solid,
+.fa-brands {
+  margin-right: 5px;
+  color: #ffd700;
+}
+
+.templates .final{
+  margin-top: 2rem;
+}
+}
