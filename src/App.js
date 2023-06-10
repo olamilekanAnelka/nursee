@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route} from 'react-router-dom';
 import './App.css';
-import ContactUs from './components/contactUs';
-import PageNotFound from './components/pageNotFound';
+import ContactUs from './components/contactUs/contactUs'
+import PageNotFound from './components/pageNotFound/pageNotFound';
 
 
 

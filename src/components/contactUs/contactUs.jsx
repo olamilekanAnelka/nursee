@@ -1,22 +1,28 @@
 import React from 'react'
-import '../components/contactUs.css'
-import Map from '../components/map'
-import Navbar from '../components/Navbar'
+import '../contactUs/contactUs.css'
+import Map from '../map/map'
+
 
 const ContactUs = () => {
+
+ 
   return (
    <>
      <div className="ContactUs">
         <div className="imgbg">
      <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <div>
+    <div className='navbar-header'>
     <a class="navbar-brand" href="#">Nursee</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
     </button>
     </div>
-    <div class="collapse navbar-collapse" >
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="scrollable-navbar">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -50,13 +56,15 @@ const ContactUs = () => {
           <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
         </li>
       </ul>
-     
-    </div>
-    <div className="navbarLogo">
+        </div>
+      <div className="navbarLogo">
     <i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-youtube"></i>
     </div>
+     
+    </div>
+   
   </div>
 </nav>
 
@@ -158,7 +166,7 @@ const ContactUs = () => {
       </div>
     </div>
       </div>
-      <Map/>
+                                        <Map/>
 
         <div className="templates">
           <div className='subTemplates'>
@@ -217,4 +225,4 @@ const ContactUs = () => {
   )
 }
 
-export default ContactUs
+export default ContactUs;
