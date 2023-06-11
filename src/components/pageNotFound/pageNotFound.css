@@ -64,35 +64,68 @@
          }
 
          .pagenotfound .templates{
-            background-color: #152e45;
-            display: flex;
-            flex-direction: column;
-            color: #ffffff;
-             padding-top: 5rem;
-             align-items: center;
-             width: 100%;
-             height: auto;
-           
-          }
+          background-color: #152e45;
+          display: flex;
+          flex-direction: column;
+          color: #ffffff;
+           padding-top: 3rem;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           height: auto;
+         
+        }
+      
+        .templates .subTemplates{
+          width: 90%;
+          border: none;  
+          border-bottom: 1px solid #ffffff;
+      
+        } 
         
-          .templates .subTemplates{
-            width: 70%;
-            border: none;
-            border-bottom: 1px solid #ffffff;
         
-          }    
-          .templates .nursee,
-          .Navigation,.quick-link,
-          .services{
-            padding-top: 3rem;
-            list-style: none;
-            padding-bottom: 2rem;
-          }
-        
-         .templates li{
-          list-style: none;
-         }
-        
+         .nursee,
+        .Navigation,.quick-link,
+        .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .subTemplates h6 {
+        margin-bottom: 1rem; /* Remove the default bottom margin for <h6> */
+      }
+      
+      .subTemplates ul {
+        margin-top: 0; /* Remove the default top margin for <ul> */
+        padding: 0;
+        list-style: none;
+      }
+      
+      .subTemplates li {
+        margin-bottom: 5px; /* Add space between the <li> elements */
+      }
+      
+      .subTemplates span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px; /* Add space between the <ul> and <span> */
+      }
+      
+      .subTemplates i {
+        margin-right: 5px; /* Add spacing between the icon and the phone number */
+      }
+      
+      
+      
+       .templates .final p{
+        display: flex;
+        margin-top: 20px;
+      }
+      
          
 }
 
