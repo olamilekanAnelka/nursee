@@ -5,6 +5,7 @@ const Reg = () => {
   return (
     <div className='regWrapper'>
       <form className='regform'>
+        <div className="regdiv">
         <h3>EDUCATION APPOINTMENT FORM</h3>
   <div class="regInput">
   <input type="text" class="form-control" id="validationCustom01"  placeholder='Title' /> 
@@ -51,6 +52,7 @@ const Reg = () => {
   </div>
   <div class="">
     <button class="" type="submit">Request an appointment</button>
+  </div>
   </div>
 </form>
     </div>

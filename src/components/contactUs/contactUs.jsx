@@ -8,7 +8,7 @@ const ContactUs = () => {
  
   return (
    <>
-     <div className="ContactUs">
+     <div className="ContactUs" id="contactDiv">
         <div className="imgbg">
      <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">

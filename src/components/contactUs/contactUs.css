@@ -147,15 +147,18 @@ body{
   padding-right: 15px;
 }
 
+.imgbg .navbar-collapse {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  padding-left: 20px;
+  background-color: #ffffff; /* Set the background color of the collapsed navbar */
+}
 
 
-
-
-
-
-
-
-  .imgbg .navbarLogo i{
+.imgbg .navbarLogo i{
     color: #152e45;
     margin: 2px;
   }
@@ -167,6 +170,7 @@ body{
    width: 70%;
    
   }
+  
   .ContactUs .getinTouch{
     width: 100%;
     display: flex;

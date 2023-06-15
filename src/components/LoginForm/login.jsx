@@ -5,9 +5,19 @@ const Login = () => {
   return (
     <div className='loginWrapper'>
        <form  className="formParent">
-           <input type="text" placeholder='username or email' />
-           <input type="password" placeholder='password' />
-           <button type='submit'>Login</button>
+        <div className="topLoginForm">
+           <input id='mail' type="text" placeholder='username or email' />
+           <input id='password' type="password" placeholder='password' />
+            <div className='checkBox'>
+            <label for="termsCheckbox">
+          <input type="checkbox" id="termsCheckbox" required/>
+         <span> Remember Me</span>
+        </label>
+        </div>
+        <button type='submit'>Login</button>
+        </div>
+           <a href="">Forgot Password?</a>
+           <a href="">Create an Account!</a>
        </form>
     </div>
   )

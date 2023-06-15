@@ -20,6 +20,78 @@ body{
     .loginWrapper .formParent{
         width: 80%;
         background-color: #ffffff;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .loginWrapper .topLoginForm{
+        width: 80%;
+        height: 40vh;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+        border-bottom: 1px solid #d4d3d8;
+
+    }
+
+    .loginWrapper .formParent #mail{
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid #d4d3d8;
+        height: 3rem;
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+        
+}
+.loginWrapper .formParent #password{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #d4d3d8;
+    height: 3rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+
+.loginWrapper .formParent input{
+    border-radius: 10px;
+}
+.loginWrapper .formParent span{
+    padding-left: 10px;
+    font-weight: 300;
+    color: #9ca1b7;
+}
+
+
+    .loginWrapper .formParent button{
+        width: 100%;
+        border: none;
+        color: #ffffff;
+        height: 3rem;
+        margin-top: 2rem;
+        background-color: #4e73de;
+    }
+    /*.loginWrapper{
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1628766265/samples/ecommerce/accessories-bag.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginWrapper .formParent{
+        width: 80%;
+        background-color: #ffffff;
         height: 50vh;
         display: flex;
         flex-direction: column;
@@ -27,15 +99,24 @@ body{
         align-items: center;
     }
 
-    .loginWrapper .formParent input{
+    .loginWrapper .formParent #mail{
         width: 20rem;
         border: none;
         border-bottom: 1px solid #000;
         margin-bottom: 20px;
         padding-left: 10px;
+}
 
+.loginWrapper .formParent #password{
+    width: 20rem;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
 
-    }
+ .loginWrapper 
+
 
     .loginWrapper .formParent button{
         width: 10rem;
@@ -43,7 +124,7 @@ body{
         background-color: #008000;
         color: #ffffff;
         height: 3rem;
-    }
+    }*/
 }
 
 
@@ -71,30 +152,68 @@ body{
     .loginWrapper .formParent{
         width: 40%;
         background-color: #ffffff;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    
+    }
+    .loginWrapper .topLoginForm{
+        width: 80%;
+        height: 40vh;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+        border-bottom: 1px solid #d4d3d8;
+
     }
 
-    .loginWrapper .formParent input{
-        width: 20rem;
-        border: none;
-        border-bottom: 1px solid #000;
-      
+    .loginWrapper .formParent #mail{
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid #d4d3d8;
+        height: 3rem;
         margin-bottom: 20px;
         padding-left: 10px;
 
+        
+}
+.loginWrapper .formParent #password{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #d4d3d8;
+    height: 3rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
 
-    }
+.loginWrapper .formParent .checkBox{
+    
+
+    
+}
+
+.loginWrapper .formParent input{
+    border-radius: 10px;
+}
+.loginWrapper .formParent span{
+    padding-left: 10px;
+    font-weight: 300;
+    color: #9ca1b7;
+}
+
 
     .loginWrapper .formParent button{
-        width: 10rem;
+        width: 100%;
         border: none;
-        background-color: #008000;
+        background-color: #4e73de;
         color: #ffffff;
         height: 3rem;
-        
+        margin-top: 2rem;
+        border-radius: 20px;
     }
 }
